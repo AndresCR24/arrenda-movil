@@ -14,6 +14,7 @@
 		2222F4612AEA00B200E7F2F6 /* ArrendamientoSantaFeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F4602AEA00B200E7F2F6 /* ArrendamientoSantaFeTests.swift */; };
 		2222F46B2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F46A2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.swift */; };
 		2222F46D2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F46C2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITestsLaunchTests.swift */; };
+		22ED419A2AEA30EC00FDF938 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22ED41992AEA30EC00FDF938 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2222F4662AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrendamientoSantaFeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2222F46A2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrendamientoSantaFeUITests.swift; sourceTree = "<group>"; };
 		2222F46C2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrendamientoSantaFeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22ED41992AEA30EC00FDF938 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		2222F4432AEA00B100E7F2F6 = {
 			isa = PBXGroup;
 			children = (
+				22ED41992AEA30EC00FDF938 /* .gitignore */,
 				2222F44E2AEA00B100E7F2F6 /* ArrendamientoSantaFe */,
 				2222F45F2AEA00B200E7F2F6 /* ArrendamientoSantaFeTests */,
 				2222F4692AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2222F4572AEA00B200E7F2F6 /* Preview Assets.xcassets in Resources */,
+				22ED419A2AEA30EC00FDF938 /* .gitignore in Resources */,
 				2222F4542AEA00B200E7F2F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
