@@ -14,10 +14,42 @@
             filePath = "ArrendamientoSantaFe/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
             landmarkName = "ContentView_previews"
             landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "6DA73E3B-FBE9-4E63-95EF-7580707E59C3 - bb3ba064da9ce49a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static ArrendamientoSantaFe.ContentView_previews.previews.getter : some"
+                  moduleName = "ArrendamientoSantaFe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresdavidcardenasramirez/Documents/Universidad/semestre2023-2/requisitos/prototipo/ArrendamientoSantaFe/ArrendamientoSantaFe/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "6DA73E3B-FBE9-4E63-95EF-7580707E59C3 - f291b6bf915b3c66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArrendamientoSantaFe.ContentView_previews.init() -&gt; ArrendamientoSantaFe.ContentView_previews"
+                  moduleName = "ArrendamientoSantaFe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresdavidcardenasramirez/Documents/Universidad/semestre2023-2/requisitos/prototipo/ArrendamientoSantaFe/ArrendamientoSantaFe/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,8 +62,8 @@
             filePath = "ArrendamientoSantaFe/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3"
-            endingLineNumber = "3"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
             landmarkName = "ContentView"
             landmarkType = "14">
          </BreakpointContent>

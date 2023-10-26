@@ -14,7 +14,19 @@
 		2222F4612AEA00B200E7F2F6 /* ArrendamientoSantaFeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F4602AEA00B200E7F2F6 /* ArrendamientoSantaFeTests.swift */; };
 		2222F46B2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F46A2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.swift */; };
 		2222F46D2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F46C2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITestsLaunchTests.swift */; };
+		22894EA92AEA67DE0088E28A /* HistorialPagosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EA82AEA67DE0088E28A /* HistorialPagosView.swift */; };
+		22894EAB2AEA686C0088E28A /* HistorialFacturasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EAA2AEA686C0088E28A /* HistorialFacturasView.swift */; };
+		22894EAD2AEA68C20088E28A /* NormasComunidadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EAC2AEA68C20088E28A /* NormasComunidadView.swift */; };
+		22894EAF2AEA692A0088E28A /* AgendarVisitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EAE2AEA692A0088E28A /* AgendarVisitaView.swift */; };
+		22894EB12AEA695F0088E28A /* CargarDocumentosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EB02AEA695F0088E28A /* CargarDocumentosView.swift */; };
+		22894EB32AEA69920088E28A /* VerCalendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EB22AEA69920088E28A /* VerCalendarioView.swift */; };
+		22894EB52AEA69C00088E28A /* VerPerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EB42AEA69C00088E28A /* VerPerfilView.swift */; };
+		22894EB72AEA69F10088E28A /* VerPropiedadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EB62AEA69F10088E28A /* VerPropiedadView.swift */; };
+		22894EB92AEA6A2B0088E28A /* CalificarContenidoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EB82AEA6A2B0088E28A /* CalificarContenidoView.swift */; };
+		22981B2D2AEA74C8008373EA /* PruebaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22981B2C2AEA74C8008373EA /* PruebaView.swift */; };
+		22C984C52AEA59CA008CAAE2 /* ContratosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C984C42AEA59CA008CAAE2 /* ContratosView.swift */; };
 		22ED419A2AEA30EC00FDF938 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22ED41992AEA30EC00FDF938 /* .gitignore */; };
+		22ED419E2AEA432D00FDF938 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ED419D2AEA432D00FDF938 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +57,19 @@
 		2222F4662AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrendamientoSantaFeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2222F46A2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrendamientoSantaFeUITests.swift; sourceTree = "<group>"; };
 		2222F46C2AEA00B200E7F2F6 /* ArrendamientoSantaFeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrendamientoSantaFeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22894EA82AEA67DE0088E28A /* HistorialPagosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialPagosView.swift; sourceTree = "<group>"; };
+		22894EAA2AEA686C0088E28A /* HistorialFacturasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialFacturasView.swift; sourceTree = "<group>"; };
+		22894EAC2AEA68C20088E28A /* NormasComunidadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormasComunidadView.swift; sourceTree = "<group>"; };
+		22894EAE2AEA692A0088E28A /* AgendarVisitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendarVisitaView.swift; sourceTree = "<group>"; };
+		22894EB02AEA695F0088E28A /* CargarDocumentosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargarDocumentosView.swift; sourceTree = "<group>"; };
+		22894EB22AEA69920088E28A /* VerCalendarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerCalendarioView.swift; sourceTree = "<group>"; };
+		22894EB42AEA69C00088E28A /* VerPerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerPerfilView.swift; sourceTree = "<group>"; };
+		22894EB62AEA69F10088E28A /* VerPropiedadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerPropiedadView.swift; sourceTree = "<group>"; };
+		22894EB82AEA6A2B0088E28A /* CalificarContenidoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificarContenidoView.swift; sourceTree = "<group>"; };
+		22981B2C2AEA74C8008373EA /* PruebaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaView.swift; sourceTree = "<group>"; };
+		22C984C42AEA59CA008CAAE2 /* ContratosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContratosView.swift; sourceTree = "<group>"; };
 		22ED41992AEA30EC00FDF938 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		22ED419D2AEA432D00FDF938 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +123,20 @@
 			children = (
 				2222F44F2AEA00B100E7F2F6 /* ArrendamientoSantaFeApp.swift */,
 				2222F4512AEA00B100E7F2F6 /* ContentView.swift */,
+				22ED419D2AEA432D00FDF938 /* Home.swift */,
+				22C984C42AEA59CA008CAAE2 /* ContratosView.swift */,
+				22894EA82AEA67DE0088E28A /* HistorialPagosView.swift */,
+				22894EAA2AEA686C0088E28A /* HistorialFacturasView.swift */,
+				22894EAC2AEA68C20088E28A /* NormasComunidadView.swift */,
+				22894EAE2AEA692A0088E28A /* AgendarVisitaView.swift */,
+				22894EB02AEA695F0088E28A /* CargarDocumentosView.swift */,
+				22894EB22AEA69920088E28A /* VerCalendarioView.swift */,
+				22894EB42AEA69C00088E28A /* VerPerfilView.swift */,
+				22894EB62AEA69F10088E28A /* VerPropiedadView.swift */,
+				22894EB82AEA6A2B0088E28A /* CalificarContenidoView.swift */,
 				2222F4532AEA00B200E7F2F6 /* Assets.xcassets */,
 				2222F4552AEA00B200E7F2F6 /* Preview Content */,
+				22981B2C2AEA74C8008373EA /* PruebaView.swift */,
 			);
 			path = ArrendamientoSantaFe;
 			sourceTree = "<group>";
@@ -261,8 +297,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22894EB52AEA69C00088E28A /* VerPerfilView.swift in Sources */,
+				22894EAD2AEA68C20088E28A /* NormasComunidadView.swift in Sources */,
 				2222F4522AEA00B100E7F2F6 /* ContentView.swift in Sources */,
+				22ED419E2AEA432D00FDF938 /* Home.swift in Sources */,
+				22C984C52AEA59CA008CAAE2 /* ContratosView.swift in Sources */,
+				22981B2D2AEA74C8008373EA /* PruebaView.swift in Sources */,
+				22894EB72AEA69F10088E28A /* VerPropiedadView.swift in Sources */,
+				22894EAB2AEA686C0088E28A /* HistorialFacturasView.swift in Sources */,
 				2222F4502AEA00B100E7F2F6 /* ArrendamientoSantaFeApp.swift in Sources */,
+				22894EA92AEA67DE0088E28A /* HistorialPagosView.swift in Sources */,
+				22894EAF2AEA692A0088E28A /* AgendarVisitaView.swift in Sources */,
+				22894EB92AEA6A2B0088E28A /* CalificarContenidoView.swift in Sources */,
+				22894EB32AEA69920088E28A /* VerCalendarioView.swift in Sources */,
+				22894EB12AEA695F0088E28A /* CargarDocumentosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
