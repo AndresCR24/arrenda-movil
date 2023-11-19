@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220BF3002AEA8FCC00422BC1 /* CambioPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BF2FF2AEA8FCC00422BC1 /* CambioPasswordView.swift */; };
 		2222F4502AEA00B100E7F2F6 /* ArrendamientoSantaFeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F44F2AEA00B100E7F2F6 /* ArrendamientoSantaFeApp.swift */; };
 		2222F4522AEA00B100E7F2F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F4512AEA00B100E7F2F6 /* ContentView.swift */; };
 		2222F4542AEA00B200E7F2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2222F4532AEA00B200E7F2F6 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220BF2FF2AEA8FCC00422BC1 /* CambioPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CambioPasswordView.swift; sourceTree = "<group>"; };
 		2222F44C2AEA00B100E7F2F6 /* ArrendamientoSantaFe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrendamientoSantaFe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2222F44F2AEA00B100E7F2F6 /* ArrendamientoSantaFeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrendamientoSantaFeApp.swift; sourceTree = "<group>"; };
 		2222F4512AEA00B100E7F2F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				22894EB42AEA69C00088E28A /* VerPerfilView.swift */,
 				22894EB62AEA69F10088E28A /* VerPropiedadView.swift */,
 				22894EB82AEA6A2B0088E28A /* CalificarContenidoView.swift */,
+				220BF2FF2AEA8FCC00422BC1 /* CambioPasswordView.swift */,
 				2222F4532AEA00B200E7F2F6 /* Assets.xcassets */,
 				2222F4552AEA00B200E7F2F6 /* Preview Content */,
 				22981B2C2AEA74C8008373EA /* PruebaView.swift */,
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220BF3002AEA8FCC00422BC1 /* CambioPasswordView.swift in Sources */,
 				22894EB52AEA69C00088E28A /* VerPerfilView.swift in Sources */,
 				22894EAD2AEA68C20088E28A /* NormasComunidadView.swift in Sources */,
 				2222F4522AEA00B100E7F2F6 /* ContentView.swift in Sources */,

@@ -2,7 +2,11 @@ import SwiftUI
 
 struct ContratosView: View {
     var body: some View {
-        Text("Contratos view")
+        Text("Proximamente en iphone")
     }
+}
+
+#Preview {
+    ContratosView()
 }
 
