@@ -5,7 +5,7 @@ struct CargarDocumentosView: View {
     @State private var isDocumentPickerPresented = false
     @State private var pdfDocument: PDFDocument?
     @State private var documentNames: [String] = []
-    
+
     // Directorio de documentos de la aplicación
     let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
 
@@ -21,12 +21,13 @@ struct CargarDocumentosView: View {
                     
                     List(documentNames, id: \.self) { documentName in
                         HStack {
-                            Button(documentName) {
-                                loadDocument(named: documentName)
-                            }
+                            Text(documentName) // Muestra el nombre del documento
+                                .onTapGesture {
+                                    loadDocument(named: documentName) // Carga el documento al tocar el nombre
+                                }
                             Spacer()
                             Button(action: {
-                                deleteDocument(named: documentName)
+                                deleteDocument(named: documentName) // Elimina el documento al tocar el botón
                             }) {
                                 Image(systemName: "trash") // Icono de papelera
                                     .foregroundColor(.red)

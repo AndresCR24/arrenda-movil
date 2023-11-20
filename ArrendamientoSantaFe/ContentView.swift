@@ -3,6 +3,7 @@ import SwiftUI
 let CORREO_DEFAULT = "Lasso@gmail.com"
 let PASSWORD_DEFAULT = "4444"
 
+
 struct ContentView: View
 {
     var body: some View 
@@ -138,6 +139,7 @@ struct InicioSesionView: View {
 
     
     }
+    
     func iniciarSesion(){
         if correo == CORREO_DEFAULT && password == PASSWORD_DEFAULT {
             print("Estoy iniciando sesion")
@@ -257,6 +259,7 @@ func tomarFoto(){
 func registrate(){
     print("Te registraste")
 }
+
 struct ContentView_previews: PreviewProvider
 {
     static var previews: some View
