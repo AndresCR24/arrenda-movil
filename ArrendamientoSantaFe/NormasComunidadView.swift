@@ -8,16 +8,16 @@ struct NormasComunidadView: View {
     @State private var isShowingPDF = false
     @State private var documentNames: [String] = []
 
-    let newDocumentsDirectory: URL
+    let normasDocumentsDirectory: URL
 
     init() {
         let fileManager = FileManager.default
         let documentsDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let newDirectory = documentsDirectory.appendingPathComponent("NewDocuments")
+        let newDirectory = documentsDirectory.appendingPathComponent("NormasDocuments")
         if !fileManager.fileExists(atPath: newDirectory.path) {
             try? fileManager.createDirectory(at: newDirectory, withIntermediateDirectories: true, attributes: nil)
         }
-        newDocumentsDirectory = newDirectory
+        normasDocumentsDirectory = newDirectory
         _documentNames = State(initialValue: Self.listDocuments(in: newDirectory))
     }
 
@@ -31,9 +31,9 @@ struct NormasComunidadView: View {
                     }
                 }
             }
-            .navigationBarTitle("Normas de la comunidad", displayMode: .inline)
+            .navigationBarTitle("Normas de la Comunidad", displayMode: .inline)
             .sheet(isPresented: $isDocumentPickerPresented) {
-                DocumentPickerView(documentURLs: $documentNames, directory: newDocumentsDirectory)
+                DocumentPicker(documentURLs: $documentNames, directory: normasDocumentsDirectory)
             }
             .sheet(isPresented: $isShowingPDF) {
                 if let documentName = selectedDocumentName,
@@ -42,7 +42,7 @@ struct NormasComunidadView: View {
                 }
             }
             .onAppear {
-                documentNames = Self.listDocuments(in: newDocumentsDirectory)
+                documentNames = Self.listDocuments(in: normasDocumentsDirectory)
             }
             .navigationBarItems(trailing: Button(action: {
                 isDocumentPickerPresented = true
@@ -53,7 +53,7 @@ struct NormasComunidadView: View {
     }
 
     func loadDocument(named name: String) -> PDFDocument? {
-        let url = newDocumentsDirectory.appendingPathComponent(name)
+        let url = normasDocumentsDirectory.appendingPathComponent(name)
         return PDFDocument(url: url)
     }
 
@@ -64,55 +64,6 @@ struct NormasComunidadView: View {
         } catch {
             print("Error al listar documentos: \(error.localizedDescription)")
             return []
-        }
-    }
-}
-
-struct DocumentPickerView: UIViewControllerRepresentable {
-    @Binding var documentURLs: [String]
-    var directory: URL
-    @Environment(\.presentationMode) var presentationMode
-
-    func makeUIViewController(context: Context) -> UIDocumentPickerViewController {
-        let picker = UIDocumentPickerViewController(forOpeningContentTypes: [.pdf], asCopy: true)
-        picker.delegate = context.coordinator
-        return picker
-    }
-
-    func updateUIViewController(_ uiViewController: UIDocumentPickerViewController, context: Context) {}
-
-    func makeCoordinator() -> Coordinator {
-        Coordinator(self, directory: directory)
-    }
-
-    class Coordinator: NSObject, UIDocumentPickerDelegate {
-        var parent: DocumentPickerView
-        var directory: URL
-
-        init(_ documentPicker: DocumentPickerView, directory: URL) {
-            self.parent = documentPicker
-            self.directory = directory
-        }
-
-        func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
-            guard let url = urls.first else { return }
-            let destination = directory.appendingPathComponent(url.lastPathComponent)
-            do {
-                if FileManager.default.fileExists(atPath: destination.path) {
-                    try FileManager.default.removeItem(at: destination)
-                }
-                try FileManager.default.copyItem(at: url, to: destination)
-                DispatchQueue.main.async {
-                    self.parent.documentURLs.append(url.lastPathComponent)
-                }
-            } catch {
-                print("Error al guardar el documento: \(error.localizedDescription)")
-            }
-            parent.presentationMode.wrappedValue.dismiss()
-        }
-
-        func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
-            parent.presentationMode.wrappedValue.dismiss()
         }
     }
 }
