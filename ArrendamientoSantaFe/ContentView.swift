@@ -1,7 +1,7 @@
 import SwiftUI
 
-let CORREO_DEFAULT = "Lasso@gmail.com"
-let PASSWORD_DEFAULT = "4444"
+let CORREO_DEFAULT = "4"
+let PASSWORD_DEFAULT = "4"
 
 
 struct ContentView: View

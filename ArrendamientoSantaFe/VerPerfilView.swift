@@ -42,10 +42,12 @@ struct VerPerfilView: View {
     @State private var showImagePicker: Bool = false
     @State private var editingNombre = false
     @State private var editingCorreo = false
+    @State private var editingCorreoRespaldo = false
     @State private var editingCiudad = false
     @State private var editingTelefono = false
     @State private var nombre: String = "David Lasso"
     @State private var correoElectronico: String = "Lasso@gmail.com"
+    @State private var correoElectronicoRespaldo: String = "Lasso@gmail.com"
     @State private var ciudad: String = "Medellin"
     @State private var telefono: String = "3007078802"
 
@@ -85,6 +87,7 @@ struct VerPerfilView: View {
 
                         ProfileInfoRow(title: "Nombre:", value: $nombre, isEditing: $editingNombre)
                         ProfileInfoRow(title: "Correo electrónico:", value: $correoElectronico, isEditing: $editingCorreo)
+                        ProfileInfoRow(title: "Correo de respaldo:", value: $correoElectronicoRespaldo, isEditing: $editingCorreoRespaldo)
                         ProfileInfoRow(title: "Ciudad:", value: $ciudad, isEditing: $editingCiudad)
                         ProfileInfoRow(title: "Teléfono:", value: $telefono, isEditing: $editingTelefono)
                     }
@@ -101,11 +104,23 @@ struct VerPerfilView: View {
                                 .overlay(RoundedRectangle(cornerRadius: 6)
                                     .stroke(Color("dark-cian"), lineWidth: 3.0)
                                     .shadow(color: .white, radius: 2))
+                            
+                            NavigationLink(destination: EditarPreferenciasView()) {
+                                Text("Editar preferencias")
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.white)
+                                    .frame(maxWidth: .infinity, alignment: .center)
+                                    .padding(EdgeInsets(top: 11, leading: 18, bottom: 33, trailing: 18))
+                                    .overlay(RoundedRectangle(cornerRadius: 6)
+                                        .stroke(Color("dark-cian"), lineWidth: 3.0)
+                                        .shadow(color: .white, radius: 2))
+                            }
                         }
                     }
                     .padding(.bottom, 30)
                 }
             }.navigationBarHidden(true)
+            
         }
     }
 }
