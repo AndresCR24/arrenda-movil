@@ -127,6 +127,16 @@ struct HomeView: View {
                             .shadow(color: .white, radius: 0.5))
                     
                 }
+                NavigationLink(destination: ListaDeFavoritosView()) {
+                    gridButtonLabel("LISTA DE FAVORITOS")
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .overlay(RoundedRectangle (cornerRadius: 6)
+                            .stroke(Color("dark-cian"), lineWidth: 3.0)
+                            .shadow(color: .white, radius: 0.5))
+                    
+                }
                 }
                 .padding(.top, 10)
             }

@@ -19,6 +19,7 @@
 		2275408A2B0CB078006791C3 /* EstadoContratosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227540892B0CB078006791C3 /* EstadoContratosView.swift */; };
 		2275408C2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275408B2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift */; };
 		2275408E2B0CE38A006791C3 /* ListaRegistrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275408D2B0CE38A006791C3 /* ListaRegistrosView.swift */; };
+		227540902B0D067D006791C3 /* ListaDeFavoritosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275408F2B0D067D006791C3 /* ListaDeFavoritosView.swift */; };
 		22894EA92AEA67DE0088E28A /* HistorialPagosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EA82AEA67DE0088E28A /* HistorialPagosView.swift */; };
 		22894EAD2AEA68C20088E28A /* NormasComunidadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EAC2AEA68C20088E28A /* NormasComunidadView.swift */; };
 		22894EAF2AEA692A0088E28A /* AgendarVisitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EAE2AEA692A0088E28A /* AgendarVisitaView.swift */; };
@@ -66,6 +67,7 @@
 		227540892B0CB078006791C3 /* EstadoContratosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadoContratosView.swift; sourceTree = "<group>"; };
 		2275408B2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunicarseConArrendadorView.swift; sourceTree = "<group>"; };
 		2275408D2B0CE38A006791C3 /* ListaRegistrosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaRegistrosView.swift; sourceTree = "<group>"; };
+		2275408F2B0D067D006791C3 /* ListaDeFavoritosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeFavoritosView.swift; sourceTree = "<group>"; };
 		22894EA82AEA67DE0088E28A /* HistorialPagosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialPagosView.swift; sourceTree = "<group>"; };
 		22894EAC2AEA68C20088E28A /* NormasComunidadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormasComunidadView.swift; sourceTree = "<group>"; };
 		22894EAE2AEA692A0088E28A /* AgendarVisitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendarVisitaView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				227540872B0CA8CA006791C3 /* EditarPreferenciasView.swift */,
 				2275408B2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift */,
 				2275408D2B0CE38A006791C3 /* ListaRegistrosView.swift */,
+				2275408F2B0D067D006791C3 /* ListaDeFavoritosView.swift */,
 				2222F4532AEA00B200E7F2F6 /* Assets.xcassets */,
 				2222F4552AEA00B200E7F2F6 /* Preview Content */,
 				22981B2C2AEA74C8008373EA /* PruebaView.swift */,
@@ -327,6 +330,7 @@
 				22894EB92AEA6A2B0088E28A /* CalificarContenidoView.swift in Sources */,
 				22894EB32AEA69920088E28A /* VerCalendarioView.swift in Sources */,
 				22894EB12AEA695F0088E28A /* CargarDocumentosView.swift in Sources */,
+				227540902B0D067D006791C3 /* ListaDeFavoritosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
