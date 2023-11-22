@@ -88,6 +88,7 @@ struct VerPerfilView: View {
                         ProfileInfoRow(title: "Nombre:", value: $nombre, isEditing: $editingNombre)
                         ProfileInfoRow(title: "Correo electrónico:", value: $correoElectronico, isEditing: $editingCorreo)
                         ProfileInfoRow(title: "Correo de respaldo:", value: $correoElectronicoRespaldo, isEditing: $editingCorreoRespaldo)
+                        
                         ProfileInfoRow(title: "Ciudad:", value: $ciudad, isEditing: $editingCiudad)
                         ProfileInfoRow(title: "Teléfono:", value: $telefono, isEditing: $editingTelefono)
                     }
@@ -137,7 +138,7 @@ struct ProfileInfoRow: View {
             if isEditing {
                 TextField("", text: $value)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
             } else {
                 Text(value)
                     .foregroundColor(.white)

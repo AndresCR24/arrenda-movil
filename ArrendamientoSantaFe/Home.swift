@@ -26,7 +26,7 @@ struct HomeView: View {
             LazyVGrid(columns: columns, spacing: 20) {
                 // Cada elemento de la cuadrícula es un NavigationLink
                 NavigationLink(destination: ContratosView()) {
-                    gridButtonLabel("Ver contratos")
+                    gridButtonLabel("VER CONTRATOS")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.white)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -36,7 +36,7 @@ struct HomeView: View {
                             .shadow(color: .white, radius: 0.5))
                 }
                 NavigationLink(destination: HistorialPagosView()) {
-                    gridButtonLabel("Ver historial del pagos")
+                    gridButtonLabel("VER HISTORIAL DE PAGOS")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.white)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -45,7 +45,7 @@ struct HomeView: View {
                             .shadow(color: .white, radius: 0.5))
                 }
                 NavigationLink(destination: EstadoContratosView()) {
-                    gridButtonLabel("Estado de los contratos")
+                    gridButtonLabel("ESTADO DE LOS CONTRATOS")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.white)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -54,7 +54,7 @@ struct HomeView: View {
                             .shadow(color: .white, radius: 0.5))
                 }
                 NavigationLink(destination: NormasComunidadView()) {
-                    gridButtonLabel("Ver normas de la comunidad")
+                    gridButtonLabel("VER NORMAS DE LA COMUNIDAD")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.white)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -63,7 +63,7 @@ struct HomeView: View {
                             .shadow(color: .white, radius: 0.5))
                 }
                 NavigationLink(destination: AgendarVisitaView()) {
-                    gridButtonLabel("Agendar visita")
+                    gridButtonLabel("AGENDAR VISITAS")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.white)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -128,7 +128,7 @@ struct HomeView: View {
                     
                 }
                 NavigationLink(destination: ListaDeFavoritosView()) {
-                    gridButtonLabel("LISTA DE FAVORITOS")
+                    gridButtonLabel("VER PROPIEDADES")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.white)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)

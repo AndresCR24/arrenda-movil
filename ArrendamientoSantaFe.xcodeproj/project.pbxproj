@@ -20,6 +20,12 @@
 		2275408C2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275408B2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift */; };
 		2275408E2B0CE38A006791C3 /* ListaRegistrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275408D2B0CE38A006791C3 /* ListaRegistrosView.swift */; };
 		227540902B0D067D006791C3 /* ListaDeFavoritosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275408F2B0D067D006791C3 /* ListaDeFavoritosView.swift */; };
+		227540922B0DA2F9006791C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 227540912B0DA2F9006791C3 /* GoogleService-Info.plist */; };
+		227540932B0DA2F9006791C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 227540912B0DA2F9006791C3 /* GoogleService-Info.plist */; };
+		227540942B0DA2F9006791C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 227540912B0DA2F9006791C3 /* GoogleService-Info.plist */; };
+		227541072B0DB627006791C3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 227541062B0DB627006791C3 /* FirebaseAnalytics */; };
+		227541092B0DB627006791C3 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 227541082B0DB627006791C3 /* FirebaseAnalyticsSwift */; };
+		2275410B2B0DB732006791C3 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 2275410A2B0DB732006791C3 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		22894EA92AEA67DE0088E28A /* HistorialPagosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EA82AEA67DE0088E28A /* HistorialPagosView.swift */; };
 		22894EAD2AEA68C20088E28A /* NormasComunidadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EAC2AEA68C20088E28A /* NormasComunidadView.swift */; };
 		22894EAF2AEA692A0088E28A /* AgendarVisitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22894EAE2AEA692A0088E28A /* AgendarVisitaView.swift */; };
@@ -68,6 +74,7 @@
 		2275408B2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunicarseConArrendadorView.swift; sourceTree = "<group>"; };
 		2275408D2B0CE38A006791C3 /* ListaRegistrosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaRegistrosView.swift; sourceTree = "<group>"; };
 		2275408F2B0D067D006791C3 /* ListaDeFavoritosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeFavoritosView.swift; sourceTree = "<group>"; };
+		227540912B0DA2F9006791C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22894EA82AEA67DE0088E28A /* HistorialPagosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialPagosView.swift; sourceTree = "<group>"; };
 		22894EAC2AEA68C20088E28A /* NormasComunidadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormasComunidadView.swift; sourceTree = "<group>"; };
 		22894EAE2AEA692A0088E28A /* AgendarVisitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendarVisitaView.swift; sourceTree = "<group>"; };
@@ -87,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227541092B0DB627006791C3 /* FirebaseAnalyticsSwift in Frameworks */,
+				2275410B2B0DB732006791C3 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				227541072B0DB627006791C3 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +125,7 @@
 				2222F45F2AEA00B200E7F2F6 /* ArrendamientoSantaFeTests */,
 				2222F4692AEA00B200E7F2F6 /* ArrendamientoSantaFeUITests */,
 				2222F44D2AEA00B100E7F2F6 /* Products */,
+				227540CF2B0DB4A7006791C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +160,7 @@
 				2275408B2B0CD0A3006791C3 /* ComunicarseConArrendadorView.swift */,
 				2275408D2B0CE38A006791C3 /* ListaRegistrosView.swift */,
 				2275408F2B0D067D006791C3 /* ListaDeFavoritosView.swift */,
+				227540912B0DA2F9006791C3 /* GoogleService-Info.plist */,
 				2222F4532AEA00B200E7F2F6 /* Assets.xcassets */,
 				2222F4552AEA00B200E7F2F6 /* Preview Content */,
 				22981B2C2AEA74C8008373EA /* PruebaView.swift */,
@@ -181,6 +193,13 @@
 			path = ArrendamientoSantaFeUITests;
 			sourceTree = "<group>";
 		};
+		227540CF2B0DB4A7006791C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +216,11 @@
 			dependencies = (
 			);
 			name = ArrendamientoSantaFe;
+			packageProductDependencies = (
+				227541062B0DB627006791C3 /* FirebaseAnalytics */,
+				227541082B0DB627006791C3 /* FirebaseAnalyticsSwift */,
+				2275410A2B0DB732006791C3 /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
 			productName = ArrendamientoSantaFe;
 			productReference = 2222F44C2AEA00B100E7F2F6 /* ArrendamientoSantaFe.app */;
 			productType = "com.apple.product-type.application";
@@ -269,6 +293,9 @@
 				Base,
 			);
 			mainGroup = 2222F4432AEA00B100E7F2F6;
+			packageReferences = (
+				227540952B0DAD30006791C3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2222F44D2AEA00B100E7F2F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -286,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2222F4572AEA00B200E7F2F6 /* Preview Assets.xcassets in Resources */,
+				227540922B0DA2F9006791C3 /* GoogleService-Info.plist in Resources */,
 				22ED419A2AEA30EC00FDF938 /* .gitignore in Resources */,
 				2222F4542AEA00B200E7F2F6 /* Assets.xcassets in Resources */,
 			);
@@ -295,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227540932B0DA2F9006791C3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227540942B0DA2F9006791C3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +684,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		227540952B0DAD30006791C3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		227541062B0DB627006791C3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 227540952B0DAD30006791C3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		227541082B0DB627006791C3 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 227540952B0DAD30006791C3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		2275410A2B0DB732006791C3 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 227540952B0DAD30006791C3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2222F4442AEA00B100E7F2F6 /* Project object */;
 }
